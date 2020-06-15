@@ -1,5 +1,3 @@
-# based on code from https://www.tensorflow.org/tutorials
-
 import tensorflow as tf
 import numpy as np
 
@@ -7,7 +5,6 @@ import numpy as np
 from numpy.random import seed
 seed(1)
 #from tensorflow import set_random_seed
-#set_random_seed(1)
 tf.random.set_seed(1)
 
 # specify path to training data and testing data
